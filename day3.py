@@ -8,7 +8,6 @@ test = [
     "234234234234278",
     "818181911112111",
 ]
-file = test
 
 maxJoltage = 0
 max12 = 0
@@ -42,10 +41,7 @@ for bank in file:
     biggest = table[-1][0]
     max12 += biggest
 
-    if j == 0:
-        debug()
-        print(biggest)
-    j += 1
+    print(f"{bank.strip()} -> {biggest}")
 
     
 print(maxJoltage, max12)
