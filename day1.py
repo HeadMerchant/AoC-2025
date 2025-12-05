@@ -14,6 +14,10 @@ file = dailyPuzzle(1)
 #     "L82"
 # ]
 
+file = [
+    "R1000"
+]
+
 position = 50
 zeroStops = 0
 zeroPasses = 0

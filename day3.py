@@ -9,6 +9,8 @@ test = [
     "818181911112111",
 ]
 
+file = test
+
 maxJoltage = 0
 max12 = 0
 
@@ -40,8 +42,5 @@ for bank in file:
 
     biggest = table[-1][0]
     max12 += biggest
-
-    print(f"{bank.strip()} -> {biggest}")
-
     
 print(maxJoltage, max12)
